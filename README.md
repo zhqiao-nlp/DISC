@@ -7,4 +7,6 @@ cd char-similarity-calculation
 python merge.py
 ```
 
+You can also click [here](https://arxiv.org/pdf/2210.12484) to download pre-calculated .npy file.
+
 We will release our relevant code and models later.
