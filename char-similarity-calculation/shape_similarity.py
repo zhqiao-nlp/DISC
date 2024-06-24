@@ -2,10 +2,10 @@ import Levenshtein
 import json
 
 
-fourconer_code = json.load(open("/public/home/zhli13/zhqiao/char-similar/char_similar/data/char_fourangle.dict"))
-structure = json.load(open("/public/home/zhli13/zhqiao/char-similar/char_similar/data/char_struct.dict"))
-chaizi = json.load(open("/public/home/zhli13/zhqiao/char-similar/char_similar/data/char_stroke.dict"))
-stroke_order = json.load(open("/public/home/zhli13/zhqiao/char-similar/char_similar/data/char_order.dict"))
+fourconer_code = json.load(open("./dict/fourconer.dict"))
+structure = json.load(open("./dict/structure.dict"))
+chaizi = json.load(open("./dict/chaizi.dict"))
+stroke_order = json.load(open("./dict/order.dict"))
 
 
 def fourconer_new(char1, char2):
